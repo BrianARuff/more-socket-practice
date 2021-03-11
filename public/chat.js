@@ -1,6 +1,6 @@
 // connect to socket on server
 
-const socket = io.connect("http://localhost:" + process.env.PORT);
+const socket = io.connect();
 
 const output = document.querySelector("#output");
 const messages = document.querySelector("#messages");
