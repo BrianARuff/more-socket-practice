@@ -1,0 +1,32 @@
+#mario-chat {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 90vh;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+input {
+  padding: 20px;
+}
+
+#output {
+  height: 70vh;
+}
+
+#handle {
+  height: 5vh;
+}
+
+#messages {
+  height: 10vh;
+}
+
+#send {
+  height: 10vh;
+  background-color: blue;
+  color: #fff;
+  font-size: 16px;
+}
